@@ -1,0 +1,65 @@
+
+.body-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.login{
+    background-color: rgb(202, 204, 205);
+}
+.admin-login img, .login img{
+    border-radius: 50%;
+    height: 3rem;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.login {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 2%;
+    align-items: center;
+}
+.sidebar{
+    background-color: rgb(101, 102, 103);
+    height: calc(100vh - 4rem);
+    width: 20vw;
+}
+.faci, .faci .container, .faci-layout, .body-login, .sidebar{
+    margin: 0;
+    padding: 0;
+}
+.profile .picture img{
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(202, 204, 205);
+    border-radius: 10%;
+}
+
+.picture{
+    margin: 1rem;
+    padding: 0;
+    width: 40%;
+}
+.form-container button{
+    width: 20vw;
+}
+.form-container > .container {
+    margin-bottom: 1rem;
+}
+
+.form-container > .container > .container {
+    margin-right: 1rem;
+}
+
+.back-icon {
+    text-decoration: none;
+    color: rgb(19, 19, 45);
+    font-size: 2rem;
+}
